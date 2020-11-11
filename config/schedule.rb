@@ -24,7 +24,7 @@ set :output, 'log/cron.log'
 set :environment, :development # 環境を設定
 
 
-# 1分毎に回す
-every 1.minute do
+# 30分毎に回す
+every 30.minute do
     runner "ScrapingName.myname"
 end
