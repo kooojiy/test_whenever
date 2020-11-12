@@ -25,6 +25,6 @@ set :environment, :development # 環境を設定
 
 
 # 30分毎に回す
-every 30.minute do
+every 3.minute do
     runner "ScrapingName.myname"
 end
